@@ -1,9 +1,8 @@
-# [Aifory.io API library]
+# Aifory.io API library
 
 
 [![License](https://badgen.net/github/license/bgrusnak/aifory)](./LICENSE)
 [![Package tree-shaking](https://badgen.net/bundlephobia/tree-shaking/[libraryName])](https://bundlephobia.com/package/@bgrusnak/aifory)
-[![Package minified & gzipped size](https://badgen.net/bundlephobia/minzip/[@bgrusnak/aifory)](https://bundlephobia.com/package/@bgrusnak/aifory)
 [![Package dependency count](https://badgen.net/bundlephobia/dependency-count/@bgrusnak/aifory)](https://bundlephobia.com/package/@bgrusnak/aifory)
 
 ## Installation
