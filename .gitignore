@@ -4,6 +4,8 @@
 # Finder's configuration files (Mac).
 .DS_Store
 
+package-lock.json
+
 # Node.js modules.
 node_modules/
 
