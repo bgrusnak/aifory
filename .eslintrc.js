@@ -8,6 +8,9 @@
  * @type {import('eslint').Linter.Config}
  */
 const options = {
+  rules: {
+    "@typescript-eslint/no-explicit-any": "off"
+  },
   root: true,
   parser: '@typescript-eslint/parser',
   parserOptions: {

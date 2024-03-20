@@ -4,58 +4,33 @@
 
 ## Table of contents
 
+### Classes
+
+- [Aifory](classes/Aifory.md)
+
 ### Type Aliases
 
-- [NumberParseable](README.md#numberparseable)
-
-### Functions
-
-- [isNumberParseable](README.md#isnumberparseable)
+- [AiforyResponse](README.md#aiforyresponse)
 
 ## Type Aliases
 
-### NumberParseable
+### AiforyResponse
 
-Ƭ **NumberParseable**: `number` \| `string` \| `boolean` & { `isNumberParseble`: unique `symbol`  }
+Ƭ **AiforyResponse**\<`type`\>: `Object`
 
-A Branded Type for values parseable to number.
+#### Type parameters
 
-#### Defined in
+| Name |
+| :------ |
+| `type` |
 
-[index.ts:4](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/c48c9c1/src/index.ts#L4)
+#### Type declaration
 
-## Functions
-
-### isNumberParseable
-
-▸ **isNumberParseable**(`value`): value is NumberParseable
-
-Check if value is parseable to number.
-
-#### Parameters
-
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `value` | `unknown` | An `unknown` value to be checked. |
-
-#### Returns
-
-value is NumberParseable
-
-**`Example`**
-
-```js
-isNumberParseable('AAAA');
-//=> false
-
-isNumberParseable('100');
-//=> true
-
-if (!isNumberParseable(value))
-  throw new Error('Value can\'t be parseable to `Number`.')
-return Number(value);
-```
+| Name | Type |
+| :------ | :------ |
+| `data?` | `type` |
+| `error?` | `any` |
 
 #### Defined in
 
-[index.ts:24](https://github.com/VitorLuizC/typescript-library-boilerplate/blob/c48c9c1/src/index.ts#L24)
+[index.ts:7](https://github.com/bgrusnak/aifory/blob/8398090/src/index.ts#L7)
